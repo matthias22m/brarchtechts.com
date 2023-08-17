@@ -1,0 +1,80 @@
+@media only screen and (min-width: 600px){
+    .container header .header{
+        width: 60%;
+    }
+
+    .header p{
+        letter-spacing: 4px;
+    }
+    .container header .header-right{
+        display: unset;
+        line-height: 2em;
+        margin: auto;
+        letter-spacing: 1px;
+    }
+    
+    .container h1,
+    .container .pro-hr{
+        transition: 1s;
+        display: flex;
+    }
+    
+    .container .image-with-chair .text-image{
+        top: 40%;
+        align-items: baseline flex-end;
+    }
+
+    .container .list-of-furnitures{    
+        width: 96%;
+        margin-inline: auto;
+    }
+
+    .container .list-of-furnitures .top-text{    
+        width: 45%;
+    }
+
+    .container .list-of-furnitures .top-text p{
+        font-size: 0.8em;
+        width: 30%;
+    }
+
+    .container .about{
+        width: 92%;
+        margin-top: 5%;
+    }
+
+    .container .all-teams .team-members{
+        height: 50vh;
+        width: 40%;
+    }
+
+    footer{
+        height: 8em;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .container .list-of-furnitures .top-text{    
+        width: 22%;
+        
+    }
+    .container h1,
+    .container .pro-hr{
+        margin-inline: 3.5%;
+    }
+    .container .list-of-furnitures .top-text p{    
+        width: 45%;
+    }
+
+    .container .all-teams .team-members{
+        margin-inline: 2%;
+        margin-top: 5%;
+        height: 60vh;
+        width: 20%;
+    }
+
+    .container .image-with-chair{
+        width: 98%;
+        margin-inline: auto;
+    }
+}
